@@ -29,7 +29,7 @@ app.use(express.json());
 const responses = JSON.parse(fs.readFileSync("responses.json", "utf-8"));
 
 app.get("/", (req, res) => {
-  res.send("🤖 Xass Simsimi is running!");
+  res.send("🤖 BaYjid Simsimi is running!");
 });
 
 app.post("/ask", (req, res) => {
@@ -39,5 +39,5 @@ app.post("/ask", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Xass BaYjid SimSimi is running on port ${PORT}`);
+  console.log(`BaYjid SimSimi is running on port ${PORT}`);
 });
